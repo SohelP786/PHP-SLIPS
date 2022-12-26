@@ -1,7 +1,7 @@
 <html>
 <body>
 <form method="post" action="slip10.php">
-enter first numbere:<br>
+enter first number:<br>
 <input type="text" name="t1"><br>
 enter second number<br>
 <input type="text" name="t2"><br><br>
@@ -10,7 +10,7 @@ choice:<br>
 2.power of first number raised to second number:<br>
 3.sum of first n numbers:<br>
 4.find the factorial of given number:
-<input type="text" name="t3">  <br><br>
+<br><input type="text" name="t3">  <br><br>
 <input type="submit">
       
 </form>

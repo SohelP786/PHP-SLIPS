@@ -13,8 +13,8 @@
        <br> <input type="text" name="t4">
     <br> 1. Find whether the small string appears at the start of the large string. 
     <br>2. Find the position of the small string in the big string. 
-    <br> 3. Compare both the string for first n characters, also the comparison should not be case 
-        sensitive.
+    <br>3. Compare both the string for first n characters, also the 
+             comparison should not be case sensitive.
     <br>
     <br>
     <input type="submit">
@@ -37,13 +37,13 @@
                 else
                   echo("small string found=".$p);
                 break;
-      case 3:$n=$_POST["t3"];
+       case 3:$n=$_POST["t3"];
               $k=strncmp($s1,$s2,$n);
                if($K==0)
                 echo("String are same");
-               if($K>0)
+               else if($K>0)
                 echo("String 1 is greater");
-               if($K<0)
+               else if($K<0)
                 echo("String 2 is greater");
                break;
      }

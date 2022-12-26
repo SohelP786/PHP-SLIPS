@@ -11,7 +11,7 @@
           if($n%2==0)
            echo("<td style='width:50;height:50;background-color:black;'> </td>");
           else
-           echo("<td style='width:10;height:10;'> </td>"); 
+           echo("<td style='width:50;height:50;'> </td>"); 
        }
       echo("</tr>");
    }

@@ -20,9 +20,13 @@
  $sno=explode(" ",$s1);
  $sname=explode(" ",$s2);
  $marks=explode(" ",$s3);
+
  $t=array_sum($marks);
+
  $p=$t/5;
+
  $grade="";
+
  if($p>90)
   $grade="O";
  else if($p>80)
@@ -44,9 +48,9 @@
    {
     echo("<tr><td>$sno[$i] <td>$sname[$i] <td>$marks[$i]</tr>");
    }
-    echo("<tr> <td colspan=2>Total=<td>$t</tr>");
-     echo("<tr> <td colspan=2>percentage=<td>$t</tr>");
-     echo("<tr> <td colspan=2>grade=<td>$t</tr>");
+     echo("<tr> <td colspan=2>Total=<td>$t</tr>");
+     echo("<tr> <td colspan=2>percentage=<td>$p</tr>");
+     echo("<tr> <td colspan=2>grade=<td>$grade</tr>");
      echo("</table>");
 ?>
 
